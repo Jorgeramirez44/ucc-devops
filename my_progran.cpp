@@ -1,7 +1,9 @@
-<stdio.h>
-<nath.h>
-<getch.h>
-#workspace 'curso devops'
+
+#include <stdio.h>
+#include <nath.h>
+#include <getch.h>
+using namespace std;
+
 int main [object ...]{
 int ivalor =0;
 int contador =0;
