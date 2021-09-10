@@ -24,14 +24,8 @@ cout << "Ingrese la altura del triangulo: ";
 
 cin >> altura;
 
-resultado=(base*altura)/2; // Formula matematica para calcular el area del triangulo.
+resultado=(base*altura)/2; 
 
 cout << "El area de su triangulo es: " << resultado << endl;
-
-
-
-cin.ignore();
-
-cin.get(); // Detenemos el programa con estas dos funciones similar a la funcion system("pause");
-
+cout << "Jorge Henrnando ramirez - 504756";
 }
