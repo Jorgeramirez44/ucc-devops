@@ -1,0 +1,38 @@
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<math.h>
+ 
+int a;
+float b,c,d,e,f,g;
+float pi = M_PI; // ó acos(0.0)
+ 
+ 
+main(){
+printf("instrucciones: 1 es triangulo, 2 es circulo,");
+printf(" ingrese figura geometrica");
+ 
+scanf("%d",&a);
+switch( a )
+{
+case 1 : {
+printf("ingrese la base y la altura del triangulo");
+scanf ("%f%f", &b, &c);
+printf ("el area del triangulo es: %f", (float)(b*c)/2.0);
+break;
+}
+case 2 : {
+printf ("ingrese el radio del circulo");
+scanf("%f", &d);
+printf ("el area del circulo es %f", (float) pi*d*d);
+break;
+}
+ 
+default : {
+printf( "ingrese un numero comprendido entre 1 y 2 para calcular el area de la figura geometrica deseada");
+break;
+}
+getch();
+}
+}
