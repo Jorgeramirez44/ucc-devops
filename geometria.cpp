@@ -62,7 +62,7 @@ switch(vi_opcion){
 		cin >> vi_base;
 		cout << "\n";
 
-		vf_area = (vi_base * vi_area)/2;
+		vf_area = (vi_base * vi_altura)/2;
 		break;
 	default:
 		//cuadrado
